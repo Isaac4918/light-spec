@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightspec-cli"
+version = "0.1.0"
+description = "CLI for initializing LightSpec projects"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "questionary>=2.0,<3.0",
+  "typer>=0.12,<1.0",
+]
+
+[project.scripts]
+lightspec = "lightspec.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lightspec = [
+  "assets/common/*.md",
+  "assets/skills/**/*",
+]

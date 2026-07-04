@@ -1,0 +1,24 @@
+{
+  "project": "<project_name>",
+  "description": "<project_description>",
+  "rules": {
+    "one_feature_at_a_time": true,
+    "require_tests_to_close": true,
+    "valid_status": ["pending", "spec_ready", "in_progress", "done"],
+    "sdd_required_when": "feature has \"sdd\": true",
+    "state_model": {
+      "pending": "approved and registered, not yet in implementation",
+      "spec_ready": "sdd feature with complete approved spec, ready to implement",
+      "in_progress": "the single feature currently being implemented",
+      "done": "implemented and validated for closure"
+    },
+    "state_invariants": [
+      "at most one feature may be in_progress at any time",
+      "features with sdd=true must pass through spec_ready before implementation",
+      "blocked is metadata and does not replace the main status",
+      "reopening returns a feature to pending and records the reopen reason",
+      "done requires the validation required by project rules"
+    ]
+  },
+  "features": []
+}

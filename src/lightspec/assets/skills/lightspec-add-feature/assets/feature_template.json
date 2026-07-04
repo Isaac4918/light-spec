@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "<feature_name>",
+  "title": "<feature_title>",
+  "description": "<feature_description>",
+  "acceptance": [
+    "<acceptance_criterion_1>",
+    "<acceptance_criterion_2>"
+  ],
+  "sdd": false,
+  "status": "pending",
+  "blocked": false,
+  "blocker_reason": null,
+  "reopen_count": 0,
+  "reopen_reason": null,
+  "last_validated_at": null,
+  "validation_summary": null
+}
