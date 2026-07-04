@@ -1,6 +1,6 @@
 # Feature Memory
 
-Mantén este archivo breve y reutilizable. Usa bullets cortos y evita narrativa extensa.
+Keep this file short and reusable. Use brief bullets and avoid extensive narrative.
 
 - feature_id: <feature_id>
 - feature_name: <feature_name>

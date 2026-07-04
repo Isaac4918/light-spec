@@ -1,23 +1,23 @@
 # Requirements
 
-## Contexto
+## Context
 
 - Feature ID: <feature_id>
 - Feature name: <feature_name>
 - Feature title: <feature_title>
 
-## Requisitos
+## Requirements
 
 ### R1
-Cuando <condicion o disparador>, el sistema debe <comportamiento esperado verificable>.
+When <condition or trigger>, the system shall <verifiable expected behavior>.
 
 ### R2
-Cuando <condicion o disparador>, el sistema debe <comportamiento esperado verificable>.
+When <condition or trigger>, the system shall <verifiable expected behavior>.
 
 ### R3
-Cuando <condicion o disparador>, el sistema debe <comportamiento esperado verificable>.
+When <condition or trigger>, the system shall <verifiable expected behavior>.
 
-## Notas
+## Notes
 
-- Agregar requisitos adicionales solo si aportan comportamiento verificable.
-- Evitar detalles de implementación.
+- Add additional requirements only if they provide verifiable behavior.
+- Avoid implementation details.

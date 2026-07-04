@@ -1,36 +1,36 @@
 # Design
 
-## Objetivo tecnico
+## Technical objective
 
-<resumen tecnico de la feature>
+<technical summary of the feature>
 
-## Archivos y areas afectadas
+## Affected files and areas
 
-- <archivo_o_modulo_1>
-- <archivo_o_modulo_2>
+- <file_or_module_1>
+- <file_or_module_2>
 
-## Decisiones de diseño
+## Design decisions
 
 - <decision_1>
 - <decision_2>
 
-## Flujo general
+## General flow
 
-1. <paso_1>
-2. <paso_2>
-3. <paso_3>
+1. <step_1>
+2. <step_2>
+3. <step_3>
 
-## Manejo de errores y validaciones
+## Error handling and validations
 
-- <regla_error_1>
-- <regla_error_2>
+- <error_rule_1>
+- <error_rule_2>
 
-## Entradas y salidas
+## Inputs and outputs
 
-- Entrada: <entrada_principal>
-- Salida: <salida_principal>
+- Input: <main_input>
+- Output: <main_output>
 
-## Alternativa descartada
+## Discarded alternative
 
-- Alternativa: <alternativa>
-- Motivo de descarte: <justificacion>
+- Alternative: <alternative>
+- Reason for discarding: <justification>

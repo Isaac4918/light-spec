@@ -1,7 +1,7 @@
 # Tasks
 
-- [ ] T1. <tarea_concreta_de_implementacion> [R1]
-- [ ] T2. <tarea_concreta_de_implementacion> [R2]
-- [ ] T3. <tarea_concreta_de_implementacion> [R3]
-- [ ] T4. Agregar o actualizar pruebas relevantes.
-- [ ] T5. Ejecutar validaciones finales.
+- [ ] T1. <concrete_implementation_task> [R1]
+- [ ] T2. <concrete_implementation_task> [R2]
+- [ ] T3. <concrete_implementation_task> [R3]
+- [ ] T4. Add or update relevant tests.
+- [ ] T5. Run final validations.
