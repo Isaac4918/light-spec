@@ -21,7 +21,7 @@ La idea central es simple: el trabajo no vive solo en prompts o en la memoria de
 Instala el CLI desde una copia local del repositorio:
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/Isaac4918/light-spec.git
 cd light-spec
 uv tool install .
 ```
